@@ -14,7 +14,7 @@
 | :-------- | :------- | :------------------------- |
 | `MerchantId` | `Int` | **Requerido**. Identificador de Vendedor |
 | `PublicToken` | `string` | **Requerido**. Token generado para el Vendedor |
-| `Data` | `string` | **Required**. Data del Producto |
+| `Data` | `string` | **Requerido**. Data del Producto |
 
 
 #### Desencriptar Informacion
@@ -27,7 +27,7 @@
 | :-------- | :------- | :------------------------- |
 | `MerchantId` | `Int` | **Requerido**. Identificador de Vendedor |
 | `PublicToken` | `string` | **Requerido**. Token generado para el Vendedor |
-| `Data` | `string` | **Required**. Data del Producto encriptada |
+| `Data` | `string` | **Requerido**. Data del Producto encriptada |
 
 
 #### Generar URL final para pagar
@@ -39,4 +39,4 @@
 | Parametro | Tipo     | Descripcion                |
 | :-------- | :------- | :------------------------- |
 | `MerchantId` | `Int` | **Requerido**. Identificador de Vendedor |
-| `Data` | `string` | **Required**. Data del Producto encriptada |
+| `Data` | `string` | **Requerido**. Data del Producto encriptada |
