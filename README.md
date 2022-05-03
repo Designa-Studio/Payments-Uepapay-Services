@@ -23,9 +23,11 @@
   POST /payments/desencriptar
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| Parametro | Tipo     | Descripcion                |
+| :-------- | :------- | :------------------------- |
+| `MerchantId` | `Int` | **Requerido**. Identificador de Vendedor |
+| `PublicToken` | `string` | **Requerido**. Token generado para el Vendedor |
+| `Data` | `string` | **Required**. Data del Producto encriptada |
 
 
 #### Generar URL final para pagar
@@ -34,6 +36,7 @@
   POST /payments/checkout
 ```
 
-| Parameter | Type     | Description                |
+| Parametro | Tipo     | Descripcion                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+| `MerchantId` | `Int` | **Requerido**. Identificador de Vendedor |
+| `Data` | `string` | **Required**. Data del Producto encriptada |
